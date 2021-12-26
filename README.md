@@ -27,7 +27,7 @@ Create an object and define sample rate :
 minigenerator generator = minigenerator(SAMPLE_RATE);
 ```
 
-Call a function (sinus, square, triangle, sawtooth) and indicate the **frequency** (double), the volume (double, between 0 & 1) and duration (integer, number of samples)
+Call a function (sinus, square, triangle, sawtooth) and indicate the **frequency** (double), the **volume** (double, between 0 & 1) and **duration** (integer, number of samples)
 ```
 generator.sinus(FREQUENCY, VOLUME, DURATION);
 ```
